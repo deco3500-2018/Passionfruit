@@ -1,10 +1,10 @@
 # Team Passionfruit
 
 ## Members
-* Kevin Ong
-* Nicholas Tran
-* Vivan Sek
-* Winifred Liang
+* Kevin Ong - [GitHub](https://github.com/KevFin)
+* Nicholas Tran - [GitHub](https://github.com/ntran97)
+* Vivan Sek - [GitHub](https://github.com/viviansek)
+* Winifred Liang - [GitHub](https://github.com/winifredliang)
 
 ## Project Aim
 To create a high fidelity prototype that targets teenagers, and utilizes gamification methods to teach time management skills which will consequently combat mobile addiction.
