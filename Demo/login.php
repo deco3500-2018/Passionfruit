@@ -107,7 +107,7 @@ if(isset($_POST['Email_Address'])){
         }
     }
 </script> -->
-<script src="js/Mediroo_API.js"></script>
+<script src="js/API.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </html>

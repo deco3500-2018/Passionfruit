@@ -31,10 +31,7 @@ if(isset($_POST['delete'])){
 </head>
     <body>
 		<form name="codegen" method="post">
-
 		<div>
-		<a href="linkacc.php">Link Acc</a>
-		<a href="linkacc.php"><button>Link Account</button></a>
 		<input type="button" value="Sign Out" onClick="logOut();"></button>
 		</div>
 		

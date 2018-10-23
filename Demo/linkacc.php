@@ -10,9 +10,6 @@
 		echo "Linked Accounts!";
 		//echo "<meta http-equiv='refresh' content='0'>";	//Refreshes page
 	}
-	else{
-		echo "fuck u";
-	}
 ?>
 <!DOCTYPE html>
 <html>
