@@ -11,3 +11,5 @@ To create a high fidelity prototype that targets teenagers, and utilizes gamific
 
 ## Concept Proposal
 Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/wiki/Concept-Proposal)
+
+![](https://github.com/deco3500-2018/Passionfruit/blob/master/Promotional%20material/Poster.png)
