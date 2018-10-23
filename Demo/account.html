@@ -25,24 +25,27 @@ if(isset($_POST['delete'])){
 <html>
 <head>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    	<div class= "center">
+		<div class= "container">
 <title>Account</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width" />
 </head>
     <body>
 		<form name="codegen" method="post">
-		<div>
-		<input type="button" value="Sign Out" onClick="logOut();"></button>
-		</div>
 		
 		<!--
 		<select id="delete">
 			<option disabled selected value> - </option>
 		</select>
 			 <input type="submit" value="RESET DIS 1" ></button> -->
-		<input type="button" value="Generate Code" onClick="generateCode();"></button>
-		<input type="button" value="Reset All Codes" onClick="deleteall();"> </button>
+		<input class="codeBtn" type="button" value="Generate Code" onClick="generateCode();"></button>
+		<input class="resetBtn" type="button" value="Reset All Codes" onClick="deleteall();"> </button>
 		<!-- <input type="button" value="Show Linked Accs" onClick="linked();"></button> -->
+		
+		<div>
+		<input class="signout" type="button" value="Sign Out" onClick="logOut();"></button>
+		</div>
 		</div>
 		<div>
 		<input type="text" name="newcode" value="" readonly="readonly" > 
@@ -64,7 +67,9 @@ if(isset($_POST['delete'])){
 		</div>
 		<div id="testing">
 		</div>
-    </body>
+		</div>
+		</div>
+		</body>
 <script type="text/javascript">
 function generateCode() {
   var randomstring = "";

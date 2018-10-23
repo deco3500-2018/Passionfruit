@@ -10,6 +10,8 @@ if(isset($_SESSION['userid'])){
 
 <!DOCTYPE html>
 <html lang="en">
+<style type="text/css">
+    </style>
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -17,13 +19,14 @@ if(isset($_SESSION['userid'])){
 </head>
 
 <body>
+    	<div class= "center">
+		<div class= "container">
     <div id="contentWrapper">
             <div id="logo"></div>
-            <div class="centralLoginText"><h2>Login</h2></div>
+            <div class="centralLoginText"><h2>UNLOCKED - PARENTS</h2> <h3>Login</h3></div>
             <div id="formWrapper">
                 <form id="login" method="post">
                     <div id="status"></div>
-                    <div class="centralLoginText"><h2>Email Address</h2></div>
                     <div class="input-container">
                         <i class="fa fa-user icon"></i>
                         <input class="input-field" id="Email" type="text" placeholder="Email" name="Email_Address">
@@ -31,21 +34,21 @@ if(isset($_SESSION['userid'])){
                     </div>
                     <!-- <p id="requiredField"><sup>*</sup>Field Required</p> -->
 
-                    <div class="centralLoginText"><h2>Password</h2></div>
                     <div class="input-container">
                         <i class="fa fa-lock icon"></i>
                         <input class="input-field" type="password" id="Password" name="Password" placeholder="Password">
                         
                     </div>
                     
-                    <input id="loginBtn" type="submit" value="Login" >
+                    <input class="loginBtn" type="submit" value="Login" >
                 </form>
                 <div class="registerText">
-                    <p>Dont have an account? <a href="signup.php">Register Here</a></p>
+                    <p>Dont have an account? <br><a href="signup.php">Register Here</a></p></br>
                 </div>
             </div>
         </div>
-
+         </div>
+        </div>
 </body>
 <?php
 if(isset($_POST['Email_Address'])){
@@ -78,7 +81,7 @@ if(isset($_POST['Email_Address'])){
 	exit();
 }
 ?>
-<!-- <script>
+  <script>
     function emptyElement(field) {
         _(field).innerHTML = "";
     }
@@ -106,7 +109,7 @@ if(isset($_POST['Email_Address'])){
             ajax.send("e=" + e + "&p=" + p);
         }
     }
-</script> -->
+</script> 
 <script src="js/API.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 

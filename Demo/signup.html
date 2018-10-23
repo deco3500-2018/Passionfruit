@@ -1,3 +1,4 @@
+
 <?php
     if(isset($_POST["emailCheck"])){
         include_once("includes/connection2.php");
@@ -55,8 +56,11 @@ if(isset($_SESSION['userid'])){
 	header('Location: '.$newURL);
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
+<style type="text/css">
+    </style>
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -64,9 +68,11 @@ if(isset($_SESSION['userid'])){
 </head>
 
 <body>
+    	<div class= "center">
+		<div class= "container">
     <div id="contentWrapper">
             <div id="logo"></div>
-            <div class="centralLoginText"><h2>Unlocked Registration</h2></div>
+            <div class="centralLoginText"><h2>UNLOCKED - PARENTS</h2> <h3>Create Account</h3></div>
             <div id="formWrapper">
                 <form id="login" onsubmit="return false;">
                     <div id="status"></div>
@@ -88,17 +94,23 @@ if(isset($_SESSION['userid'])){
                         <i class="fa fa-lock icon"></i>
                         <input class="input-field" type="password" id="password" name="password" placeholder="Password (Required)" onblur="checkEmail()">
                     </div>
-                    <input id="signupBtn" type="submit" value="Create Account" onclick="signup()">
+                    <div class="input-container">
+                    <input class="signupBtn" type="submit" value="Create Account" onclick="signup()">
+                    </div>
                 </form>
                 <div class="registerText">
-                    <p id="bottomPageMargin">Already have an account? <a href="login.php">Login Here</a></p>
+                    <p id="bottomPageMargin">Already have an account? 
+                    <br><a href="login.php">Login Here</a></p></br>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
 
 
 
 </body>
+
 <script>
     /**
      * Real time AJAX email check function
@@ -153,6 +165,7 @@ if(isset($_SESSION['userid'])){
     }
 </script>
 <script src="js/API.js"></script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </html>
