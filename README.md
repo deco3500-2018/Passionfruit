@@ -14,7 +14,7 @@ Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/w
 
 ![](https://github.com/deco3500-2018/Passionfruit/blob/master/Promotional%20material/Poster.png)
 
-## Prototype
+## Prototypes
 [Functional Prototype](https://unlocked.uqcloud.net/)  
 [Figma Child v1 Prototype](https://www.figma.com/file/MlzT7odzNrVjOlOuEDIo1BwQ/Child-DECO3500-v1.0-proto.io)  
 [Figma Child v2 Prototype](https://www.figma.com/file/cqpisfO3QWWrOmy0g2jqjy/NEW-Child-Prototype)  
