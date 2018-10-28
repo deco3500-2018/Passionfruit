@@ -15,3 +15,8 @@ Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/w
 ![](https://github.com/deco3500-2018/Passionfruit/blob/master/Promotional%20material/Poster.png)
 
 ## Prototype
+[Functional Prototype](https://unlocked.uqcloud.net/)  
+[Figma Child Prototype]()  
+[Figma Parent Prototype]()  
+  
+The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. Once hosted, start navigation from the index.html file. 
