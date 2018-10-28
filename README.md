@@ -16,7 +16,8 @@ Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/w
 
 ## Prototype
 [Functional Prototype](https://unlocked.uqcloud.net/)  
-[Figma Child Prototype]()  
-[Figma Parent Prototype]()  
+[Figma Child v1 Prototype](https://www.figma.com/file/MlzT7odzNrVjOlOuEDIo1BwQ/Child-DECO3500-v1.0-proto.io)  
+[Figma Child v2 Prototype](https://www.figma.com/file/cqpisfO3QWWrOmy0g2jqjy/NEW-Child-Prototype)  
+[Figma Parent Prototype](https://www.figma.com/file/nzJvonccucP9gDNFjf1rIL/NEW-Parents-app)  
   
 The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. Once hosted, start navigation from the index.html file. 
