@@ -20,4 +20,4 @@ Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/w
 [Figma Child v2 Prototype](https://www.figma.com/file/cqpisfO3QWWrOmy0g2jqjy/NEW-Child-Prototype)  
 [Figma Parent Prototype](https://www.figma.com/file/nzJvonccucP9gDNFjf1rIL/NEW-Parents-app)  
   
-The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. Once hosted, start navigation from the index.html file. 
+The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. The database file (.sql) is included inside the prototype folder. Once hosted, start navigation from the index.html file. 
