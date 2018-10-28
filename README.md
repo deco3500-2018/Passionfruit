@@ -24,9 +24,10 @@ Setup:
 The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. The database file (.sql) is included inside the prototype folder.  
 
 1. Download all the files from the prototype folder.  
-2. Upload the files to a hosting service. A MySQL database is required. Create a database called 'unlocked' and import the .sql file. phpMyAdmin was used to manage our MySQL database.  
-2. Change the database connection details which is located in prototype/includes/connection.php to connect with your database.  
-3. Once hosted, start navigation from the index.html file.  
+2. Upload the files to a hosting service. 
+3. A MySQL database is required. Create a database called 'unlocked' and import the .sql file. phpMyAdmin was used to manage our MySQL database.  
+4. Change the database connection details which is located in prototype/includes/connection.php to connect with your database.  
+5. Once hosted, start navigation from the index.html file.  
 
 Instructions for use as a 'parent'  
 1. Select parent option  
