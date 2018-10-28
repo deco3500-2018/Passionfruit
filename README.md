@@ -19,5 +19,11 @@ Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/w
 [Figma Child v1 Prototype](https://www.figma.com/file/MlzT7odzNrVjOlOuEDIo1BwQ/Child-DECO3500-v1.0-proto.io)  
 [Figma Child v2 Prototype](https://www.figma.com/file/cqpisfO3QWWrOmy0g2jqjy/NEW-Child-Prototype)  
 [Figma Parent Prototype](https://www.figma.com/file/nzJvonccucP9gDNFjf1rIL/NEW-Parents-app)  
-  
-The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. The database file (.sql) is included inside the prototype folder. Change the database connection details which is located in prototype/includes/connection.php to connect with your database. Once hosted, start navigation from the index.html file. 
+
+Setup:
+The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. The database file (.sql) is included inside the prototype folder.  
+
+1. Download all the files from the prototype folder.  
+2. Upload the files to a hosting service. A MySQL database is required. Create a database called 'unlocked' and import the .sql file.
+2. Change the database connection details which is located in prototype/includes/connection.php to connect with your database.  
+3. Once hosted, start navigation from the index.html file.  
