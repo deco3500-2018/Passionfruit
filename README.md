@@ -27,3 +27,15 @@ The functional prototype can be set up by hosting the files in the prototype fol
 2. Upload the files to a hosting service. A MySQL database is required. Create a database called 'unlocked' and import the .sql file. phpMyAdmin was used to manage our MySQL database.  
 2. Change the database connection details which is located in prototype/includes/connection.php to connect with your database.  
 3. Once hosted, start navigation from the index.html file.  
+
+Instructions for use as a 'parent'  
+1. Select parent option  
+2. Sign up  
+3. Login  
+4. Generate code  
+5. All linked accounts will display in the area under the generated code 
+6. To clear all linked accounts / codes, clicked 'Reset All Codes'  
+  
+Instructions for use as a 'child'
+1. Select child option
+2. Enter code given from parent
