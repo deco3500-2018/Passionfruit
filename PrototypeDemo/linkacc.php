@@ -5,11 +5,30 @@
 		$lcode = $_POST['lcode'];
 		$fname = $_POST['fname'];
 		$lname = $_POST['lname'];
-		$sql = "UPDATE code SET cFirstName = '$fname' , cLastName = '$lname' WHERE codevalue = '$lcode'";
-		$result = mysqli_query($db_conn,$sql);
-		echo "Linked Accounts!";
+		$sqlcheck = "SELECT * FROM code WHERE codevalue = '$lcode'";
+		$resultcheck = mysqli_query($db_conn, $sqlcheck);
+		$num_rows = mysqli_num_rows($resultcheck);
+		if($num_rows == '0'){
+			echo 'Code'.' '.$lcode.' '.'does not exist or is incorrect';
+		}
+		else if($num_rows == '1'){
+			while($rows=mysqli_fetch_assoc($resultcheck)){
+				if($rows['cFirstName'] == '' AND $rows['cLastName'] == ''){
+					$sql = "UPDATE code SET cFirstName = '$fname' , cLastName = '$lname' WHERE codevalue = '$lcode'";
+					$result = mysqli_query($db_conn,$sql);
+					echo "Linked Accounts!";
+					}
+				else{
+					echo $lcode.' '.'has already been linked to an account';
+
+				}
+				//else if($rows['FirstName'] != '' || $rows['LastName'] != ''){
+
+				}
+			}
+		}
+
 		//echo "<meta http-equiv='refresh' content='0'>";	//Refreshes page
-	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +61,6 @@
 		<input class="linkbutton" type="submit" value="Link Account" onClick="linkCode();">
 		</form>
 		<div>
-	<!--	<a href="account.php">Generate Code</a> -->
 		</div>
 		</div>
 		</div>
