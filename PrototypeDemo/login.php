@@ -52,7 +52,7 @@ if(isset($_SESSION['userid'])){
 </body>
 <?php
 if(isset($_POST['Email_Address'])){
-	include_once("includes/connection2.php");
+	include_once("includes/connection.php");
     $email = $_POST['Email_Address'];
 	$pass = $_POST['Password'];
 	if($email == "" || $pass == ""){

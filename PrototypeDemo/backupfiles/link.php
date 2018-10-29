@@ -1,5 +1,5 @@
 <?php
-	include_once("includes/connection2.php");
+	include_once("includes/connection.php");
 	//$link = $_POST['link_code'];
 	$link = $_POST['link_code'];
 	echo $link;

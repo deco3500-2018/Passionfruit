@@ -1,5 +1,5 @@
 <?php
-	include_once("includes/connection2.php");
+	include_once("includes/connection.php");
 	if (isset($_POST['fname'], $_POST['lname'], $_POST['lcode']))
 	{
 		$lcode = $_POST['lcode'];

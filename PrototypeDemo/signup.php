@@ -1,7 +1,7 @@
 
 <?php
     if(isset($_POST["emailCheck"])){
-        include_once("includes/connection2.php");
+        include_once("includes/connection.php");
         $email = $_POST['emailCheck'];
         $sql = "SELECT uid FROM user WHERE EmailAddress='$email' LIMIT 1";
         $query = mysqli_query($db_conn, $sql); 
@@ -20,7 +20,7 @@
 ?>
 <?php
     if(isset($_POST["fn"])){
-        include_once("includes/connection2.php");
+        include_once("includes/connection.php");
 	    $fName = preg_replace('#[^a-z0-9]#i', '', $_POST['fn']);
         $lName = preg_replace('#[^a-z0-9]#i', '', $_POST['ln']);
         $email = $_POST['email'];

@@ -1,5 +1,5 @@
 <?php
-	include_once("includes/connection2.php");
+	include_once("includes/connection.php");
 	session_start();
 	if(isset($_SESSION['userid'])){
 	$id = $_SESSION['userid'];

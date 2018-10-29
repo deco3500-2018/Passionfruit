@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include_once("includes/connection2.php");
+include_once("includes/connection.php");
 
 if(isset($_SESSION['userid'])){
 	$uid = $_SESSION['userid'];
@@ -75,7 +75,7 @@ function generateCode() {
   var randomstring = "";
   var randvalues = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-  for (var i = 0; i < 10; i++){
+  for (var i = 0; i < 5; i++){
     randomstring += randvalues.charAt(Math.floor(Math.random() * randvalues.length));
 	}
 	document.codegen.newcode.value = randomstring;
