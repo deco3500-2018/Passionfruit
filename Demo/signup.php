@@ -59,9 +59,6 @@ if(isset($_SESSION['userid'])){
 
 <!DOCTYPE html>
 <html lang="en">
-<style type="text/css">
-    </style>
-
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width" />
@@ -95,7 +92,7 @@ if(isset($_SESSION['userid'])){
                         <input class="input-field" type="password" id="password" name="password" placeholder="Password (Required)" onblur="checkEmail()">
                     </div>
                     <div class="input-container">
-                    <input class="signupBtn" type="submit" value="Create Account" onclick="signup()">
+                    <input class="signupBtn" id="signupBtn" name="signupBtn" type="submit" value="Create Account" onclick="signup()">
                     </div>
                 </form>
                 <div class="registerText">
@@ -145,14 +142,12 @@ if(isset($_SESSION['userid'])){
             status.innerHTML = "Fill out all of the form data";
         } else {
             console.log(firstName +" " +lastName +" " + email+" ");
-            _("signupBtn").style.display = "none";
             status.innerHTML = " ";
             var ajax = ajaxObj("POST", "signup.php");
             ajax.onreadystatechange = function () {
                 if (ajaxReturn(ajax) == true) {
                     if (ajax.responseText != "signup_success") {
                         status.innerHTML = ajax.responseText;
-                        _("signupBtn").style.display = "block";
                     } else {
                         window.scrollTo(0, 0);
                         _("status").innerHTML ='Sign Up Successful <a href="login.php">Click here to Log in</a>';;
