@@ -6,6 +6,13 @@
 * Vivan Sek - [GitHub](https://github.com/viviansek)
 * Winifred Liang - [GitHub](https://github.com/winifredliang)
 
+## Prototypes
+Functional Prototype Zone: (https://unlocked.uqcloud.net/)
+
+[Figma Child v2 Prototype](https://www.figma.com/file/cqpisfO3QWWrOmy0g2jqjy/NEW-Child-Prototype)  
+[Figma Parent Prototype](https://www.figma.com/file/nzJvonccucP9gDNFjf1rIL/NEW-Parents-app)   
+**Note:** The Figma prototypes do not have functional aspects, it is all simulated. All the functional aspects are in the [functional prototype](https://unlocked.uqcloud.net/).
+
 ## Project Aim
 To create a high fidelity prototype that targets teenagers, and utilizes gamification methods to teach time management skills which will consequently combat mobile addiction.
 
@@ -14,14 +21,7 @@ Our Proposal can be found [here](https://github.com/deco3500-2018/Passionfruit/w
 
 ![](https://github.com/deco3500-2018/Passionfruit/blob/master/Promotional%20material/Poster.png)
 
-## Prototypes
-[Functional Prototype](https://unlocked.uqcloud.net/)  
-[Figma Child v1 Prototype](https://www.figma.com/file/MlzT7odzNrVjOlOuEDIo1BwQ/Child-DECO3500-v1.0-proto.io)  
-[Figma Child v2 Prototype](https://www.figma.com/file/cqpisfO3QWWrOmy0g2jqjy/NEW-Child-Prototype)  
-[Figma Parent Prototype](https://www.figma.com/file/nzJvonccucP9gDNFjf1rIL/NEW-Parents-app)   
-**Note:** The Figma prototypes do not have functional aspects, it is all simulated. All the functional aspects are in the [functional prototype](https://unlocked.uqcloud.net/)  .
-
-Setup:  
+## Setup:  
 The functional prototype can be set up by hosting the files in the prototype folder. A MySQL database is needed as the data is stored there. The database file (.sql) is included inside the prototype folder.  
 
 1. Download all the files from the prototype folder.  
@@ -42,3 +42,6 @@ Instructions for use as a 'child'
 1. Select child option
 2. Enter code given from parent
 3. If the linking is successful or fails, it will inform the user in the top right hand corner.
+
+Past versions of prototype:
+[Figma Child v1 Prototype](https://www.figma.com/file/MlzT7odzNrVjOlOuEDIo1BwQ/Child-DECO3500-v1.0-proto.io)  
