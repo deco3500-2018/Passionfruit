@@ -43,5 +43,5 @@ Instructions for use as a 'child'
 2. Enter code given from parent
 3. If the linking is successful or fails, it will inform the user in the top right hand corner.
 
-Past versions of prototype:
+### Past versions of prototype:
 [Figma Child v1 Prototype](https://www.figma.com/file/MlzT7odzNrVjOlOuEDIo1BwQ/Child-DECO3500-v1.0-proto.io)  
