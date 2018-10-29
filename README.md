@@ -32,7 +32,7 @@ The functional prototype can be set up by hosting the files in the prototype fol
 
 Instructions for use as a 'parent'  
 1. Select parent option  
-2. Sign up  
+2. Fill in the details and sign up  
 3. Login  
 4. Generate code  
 5. All linked accounts will display in the area under the generated code 
@@ -41,3 +41,4 @@ Instructions for use as a 'parent'
 Instructions for use as a 'child'
 1. Select child option
 2. Enter code given from parent
+3. If the linking is successful or fails, it will inform the user in the top right hand corner.
