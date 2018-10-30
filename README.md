@@ -13,6 +13,9 @@ Functional Prototype Zone: (https://unlocked.uqcloud.net/)
 [Figma Parent Prototype](https://www.figma.com/file/nzJvonccucP9gDNFjf1rIL/NEW-Parents-app)   
 **Note:** The Figma prototypes do not have functional aspects, it is all simulated. All the functional aspects are in the [functional prototype](https://unlocked.uqcloud.net/).
 
+## Domain Space and Solution
+In recent years, due to increased advancement in technology and easier accessibility to devices, more and more people have succumbed to mobile addiction. Research has shown that younger people, specifically schooling children and teenagers, are especially prone to excessive device usage. Hence our team has chosen to focus on this demographic and intend to produce a solution to reduce this excessive usage, which should consequently combat mobile addiction.
+
 ## Project Aim
 To create a high fidelity prototype that targets teenagers, and utilizes gamification methods to teach time management skills which will consequently combat mobile addiction.
 
